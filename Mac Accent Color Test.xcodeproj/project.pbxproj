@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		660E012827E8178B00739D81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E012727E8178B00739D81 /* AppDelegate.swift */; };
+		660E012A27E8178B00739D81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E012927E8178B00739D81 /* SceneDelegate.swift */; };
+		660E012C27E8178B00739D81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E012B27E8178B00739D81 /* ViewController.swift */; };
+		660E012F27E8178B00739D81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660E012D27E8178B00739D81 /* Main.storyboard */; };
+		660E013127E8178C00739D81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660E013027E8178C00739D81 /* Assets.xcassets */; };
+		660E013427E8178C00739D81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660E013227E8178C00739D81 /* LaunchScreen.storyboard */; };
+		660E013F27E8178C00739D81 /* Mac_Accent_Color_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E013E27E8178C00739D81 /* Mac_Accent_Color_TestTests.swift */; };
+		660E014927E8178C00739D81 /* Mac_Accent_Color_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E014827E8178C00739D81 /* Mac_Accent_Color_TestUITests.swift */; };
+		660E014B27E8178C00739D81 /* Mac_Accent_Color_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E014A27E8178C00739D81 /* Mac_Accent_Color_TestUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		660E013B27E8178C00739D81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 660E011C27E8178B00739D81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 660E012327E8178B00739D81;
+			remoteInfo = "Mac Accent Color Test";
+		};
+		660E014527E8178C00739D81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 660E011C27E8178B00739D81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 660E012327E8178B00739D81;
+			remoteInfo = "Mac Accent Color Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		660E012427E8178B00739D81 /* Mac Accent Color Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mac Accent Color Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		660E012727E8178B00739D81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		660E012927E8178B00739D81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		660E012B27E8178B00739D81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		660E012E27E8178B00739D81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		660E013027E8178C00739D81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		660E013327E8178C00739D81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		660E013527E8178C00739D81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660E013A27E8178C00739D81 /* Mac Accent Color TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mac Accent Color TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		660E013E27E8178C00739D81 /* Mac_Accent_Color_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mac_Accent_Color_TestTests.swift; sourceTree = "<group>"; };
+		660E014427E8178C00739D81 /* Mac Accent Color TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mac Accent Color TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		660E014827E8178C00739D81 /* Mac_Accent_Color_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mac_Accent_Color_TestUITests.swift; sourceTree = "<group>"; };
+		660E014A27E8178C00739D81 /* Mac_Accent_Color_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mac_Accent_Color_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		660E015727E8330E00739D81 /* Mac Accent Color Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mac Accent Color Test.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		660E012127E8178B00739D81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660E013727E8178C00739D81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660E014127E8178C00739D81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		660E011B27E8178B00739D81 = {
+			isa = PBXGroup;
+			children = (
+				660E012627E8178B00739D81 /* Mac Accent Color Test */,
+				660E013D27E8178C00739D81 /* Mac Accent Color TestTests */,
+				660E014727E8178C00739D81 /* Mac Accent Color TestUITests */,
+				660E012527E8178B00739D81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		660E012527E8178B00739D81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				660E012427E8178B00739D81 /* Mac Accent Color Test.app */,
+				660E013A27E8178C00739D81 /* Mac Accent Color TestTests.xctest */,
+				660E014427E8178C00739D81 /* Mac Accent Color TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		660E012627E8178B00739D81 /* Mac Accent Color Test */ = {
+			isa = PBXGroup;
+			children = (
+				660E015727E8330E00739D81 /* Mac Accent Color Test.entitlements */,
+				660E012727E8178B00739D81 /* AppDelegate.swift */,
+				660E012927E8178B00739D81 /* SceneDelegate.swift */,
+				660E012B27E8178B00739D81 /* ViewController.swift */,
+				660E012D27E8178B00739D81 /* Main.storyboard */,
+				660E013027E8178C00739D81 /* Assets.xcassets */,
+				660E013227E8178C00739D81 /* LaunchScreen.storyboard */,
+				660E013527E8178C00739D81 /* Info.plist */,
+			);
+			path = "Mac Accent Color Test";
+			sourceTree = "<group>";
+		};
+		660E013D27E8178C00739D81 /* Mac Accent Color TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				660E013E27E8178C00739D81 /* Mac_Accent_Color_TestTests.swift */,
+			);
+			path = "Mac Accent Color TestTests";
+			sourceTree = "<group>";
+		};
+		660E014727E8178C00739D81 /* Mac Accent Color TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				660E014827E8178C00739D81 /* Mac_Accent_Color_TestUITests.swift */,
+				660E014A27E8178C00739D81 /* Mac_Accent_Color_TestUITestsLaunchTests.swift */,
+			);
+			path = "Mac Accent Color TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		660E012327E8178B00739D81 /* Mac Accent Color Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660E014E27E8178C00739D81 /* Build configuration list for PBXNativeTarget "Mac Accent Color Test" */;
+			buildPhases = (
+				660E012027E8178B00739D81 /* Sources */,
+				660E012127E8178B00739D81 /* Frameworks */,
+				660E012227E8178B00739D81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mac Accent Color Test";
+			productName = "Mac Accent Color Test";
+			productReference = 660E012427E8178B00739D81 /* Mac Accent Color Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		660E013927E8178C00739D81 /* Mac Accent Color TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660E015127E8178C00739D81 /* Build configuration list for PBXNativeTarget "Mac Accent Color TestTests" */;
+			buildPhases = (
+				660E013627E8178C00739D81 /* Sources */,
+				660E013727E8178C00739D81 /* Frameworks */,
+				660E013827E8178C00739D81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				660E013C27E8178C00739D81 /* PBXTargetDependency */,
+			);
+			name = "Mac Accent Color TestTests";
+			productName = "Mac Accent Color TestTests";
+			productReference = 660E013A27E8178C00739D81 /* Mac Accent Color TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		660E014327E8178C00739D81 /* Mac Accent Color TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660E015427E8178C00739D81 /* Build configuration list for PBXNativeTarget "Mac Accent Color TestUITests" */;
+			buildPhases = (
+				660E014027E8178C00739D81 /* Sources */,
+				660E014127E8178C00739D81 /* Frameworks */,
+				660E014227E8178C00739D81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				660E014627E8178C00739D81 /* PBXTargetDependency */,
+			);
+			name = "Mac Accent Color TestUITests";
+			productName = "Mac Accent Color TestUITests";
+			productReference = 660E014427E8178C00739D81 /* Mac Accent Color TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		660E011C27E8178B00739D81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					660E012327E8178B00739D81 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					660E013927E8178C00739D81 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 660E012327E8178B00739D81;
+					};
+					660E014327E8178C00739D81 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 660E012327E8178B00739D81;
+					};
+				};
+			};
+			buildConfigurationList = 660E011F27E8178B00739D81 /* Build configuration list for PBXProject "Mac Accent Color Test" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 660E011B27E8178B00739D81;
+			productRefGroup = 660E012527E8178B00739D81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				660E012327E8178B00739D81 /* Mac Accent Color Test */,
+				660E013927E8178C00739D81 /* Mac Accent Color TestTests */,
+				660E014327E8178C00739D81 /* Mac Accent Color TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		660E012227E8178B00739D81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660E013427E8178C00739D81 /* LaunchScreen.storyboard in Resources */,
+				660E013127E8178C00739D81 /* Assets.xcassets in Resources */,
+				660E012F27E8178B00739D81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660E013827E8178C00739D81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660E014227E8178C00739D81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		660E012027E8178B00739D81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660E012C27E8178B00739D81 /* ViewController.swift in Sources */,
+				660E012827E8178B00739D81 /* AppDelegate.swift in Sources */,
+				660E012A27E8178B00739D81 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660E013627E8178C00739D81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660E013F27E8178C00739D81 /* Mac_Accent_Color_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660E014027E8178C00739D81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660E014B27E8178C00739D81 /* Mac_Accent_Color_TestUITestsLaunchTests.swift in Sources */,
+				660E014927E8178C00739D81 /* Mac_Accent_Color_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		660E013C27E8178C00739D81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 660E012327E8178B00739D81 /* Mac Accent Color Test */;
+			targetProxy = 660E013B27E8178C00739D81 /* PBXContainerItemProxy */;
+		};
+		660E014627E8178C00739D81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 660E012327E8178B00739D81 /* Mac Accent Color Test */;
+			targetProxy = 660E014527E8178C00739D81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		660E012D27E8178B00739D81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660E012E27E8178B00739D81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		660E013227E8178C00739D81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660E013327E8178C00739D81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		660E014C27E8178C00739D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		660E014D27E8178C00739D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		660E014F27E8178C00739D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Mac Accent Color Test/Mac Accent Color Test.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6755LPJ5W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mac Accent Color Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunapps.Mac-Accent-Color-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "2,6";
+			};
+			name = Debug;
+		};
+		660E015027E8178C00739D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Mac Accent Color Test/Mac Accent Color Test.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6755LPJ5W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mac Accent Color Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunapps.Mac-Accent-Color-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "2,6";
+			};
+			name = Release;
+		};
+		660E015227E8178C00739D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6755LPJ5W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunapps.Mac-Accent-Color-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mac Accent Color Test.app/Mac Accent Color Test";
+			};
+			name = Debug;
+		};
+		660E015327E8178C00739D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6755LPJ5W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunapps.Mac-Accent-Color-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mac Accent Color Test.app/Mac Accent Color Test";
+			};
+			name = Release;
+		};
+		660E015527E8178C00739D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6755LPJ5W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunapps.Mac-Accent-Color-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mac Accent Color Test";
+			};
+			name = Debug;
+		};
+		660E015627E8178C00739D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6755LPJ5W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sunapps.Mac-Accent-Color-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Mac Accent Color Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		660E011F27E8178B00739D81 /* Build configuration list for PBXProject "Mac Accent Color Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660E014C27E8178C00739D81 /* Debug */,
+				660E014D27E8178C00739D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		660E014E27E8178C00739D81 /* Build configuration list for PBXNativeTarget "Mac Accent Color Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660E014F27E8178C00739D81 /* Debug */,
+				660E015027E8178C00739D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		660E015127E8178C00739D81 /* Build configuration list for PBXNativeTarget "Mac Accent Color TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660E015227E8178C00739D81 /* Debug */,
+				660E015327E8178C00739D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		660E015427E8178C00739D81 /* Build configuration list for PBXNativeTarget "Mac Accent Color TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660E015527E8178C00739D81 /* Debug */,
+				660E015627E8178C00739D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 660E011C27E8178B00739D81 /* Project object */;
+}
