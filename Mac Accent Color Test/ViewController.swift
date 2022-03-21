@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     // NSColorSimulatedHardwareEnclosureNumber -int 1
         // Change 1 with your desired number (see below).
     
-    // I have also included color sets that match each system color.
+    // I have also included color sets that match each system color in the Assets folder.
     
     
     @IBOutlet weak var macAccentColorLabel: UILabel!
