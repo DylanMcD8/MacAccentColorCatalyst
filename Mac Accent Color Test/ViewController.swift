@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     // NSColorSimulatedHardwareEnclosureNumber -int 1
         // Change 1 with your desired number (see below).
     
-    // I have also included color sets that match each system color in the Assets folder.
+    // I have also included color sets that match each system color.
     
     
     @IBOutlet weak var macAccentColorLabel: UILabel!
@@ -48,36 +48,13 @@ class ViewController: UIViewController {
         var colorName: String = ""
         var colorNumber: String = ""
         
-        colorNumber = "Regular: \(UserDefaults.standard.string(forKey: "AppleAccentColor") ?? "no color returned")"
-        
-        switch UserDefaults.standard.string(forKey: "AppleAccentColor") ?? "No color returned" {
-        case "4":
-            colorName = "Blue"
-        case "5":
-            colorName = "Purple"
-        case "6":
-            colorName = "Pink"
-        case "0":
-            colorName = "Red"
-        case "1":
-            colorName = "Orange"
-        case "2":
-            colorName = "Yellow"
-        case "3":
-            colorName = "Green"
-        case "-1":
-            colorName = "Graphite"
-        case "-2":
-            colorName = "Multicolor"
-        default:
-            colorName = "No color returned – iMac color likely"
-        }
-        
-        
-        if colorName == "No color returned – iMac color likely" {
+    
+        // This runs if the Mac is an M1 iMac and the user is using the "This Mac" option.
+        if UserDefaults.standard.bool(forKey: "NSColorSimulateHardwareAccent") && UserDefaults.standard.object(forKey: "AppleAccentColor") == nil {
+            
             colorNumber = "M1 iMac: \(UserDefaults.standard.string(forKey: "NSColorSimulatedHardwareEnclosureNumber") ?? "no color returned")"
             
-            switch UserDefaults.standard.string(forKey: "NSColorSimulatedHardwareEnclosureNumber") ?? "No color returned – not using an iMac color" {
+            switch UserDefaults.standard.string(forKey: "NSColorSimulatedHardwareEnclosureNumber") ?? "No iMac color returned" {
             case "3":
                 colorName = "iMac Yellow"
             case "4":
@@ -91,9 +68,40 @@ class ViewController: UIViewController {
             case "8":
                 colorName = "iMac Orange"
             default:
-                colorName = "No color returned – not using an iMac color"
-                colorNumber = "No color returned – not using an iMac color"
+                colorName = "No iMac color returned"
+                colorNumber = "No iMac color returned"
             }
+            
+        } else {
+            // This runs if the Mac is not an M1 iMac or an M1 iMac is using the standard color options.
+            colorNumber = "Regular: \(UserDefaults.standard.string(forKey: "AppleAccentColor") ?? "no color returned")"
+            
+            switch UserDefaults.standard.string(forKey: "AppleAccentColor") ?? "No color returned" {
+            case "4":
+                colorName = "Blue"
+            case "5":
+                colorName = "Purple"
+            case "6":
+                colorName = "Pink"
+            case "0":
+                colorName = "Red"
+            case "1":
+                colorName = "Orange"
+            case "2":
+                colorName = "Yellow"
+            case "3":
+                colorName = "Green"
+            case "-1":
+                colorName = "Graphite"
+            case "-2":
+                colorName = "Multicolor"
+            default:
+                colorName = "No regular color returned"
+            }
+        }
+        
+        if determineIfMulticolor() {
+            colorName = "Multicolor"
         }
         
         let MacAccentColor = (UIColor.value(forKey: "controlAccentColor") as? UIColor ?? UIColor(named: "AccentColor")!)
@@ -107,3 +115,16 @@ class ViewController: UIViewController {
     }
 }
 
+
+
+func determineIfMulticolor() -> Bool {
+    var toReturn = false
+    if UserDefaults.standard.bool(forKey: "NSColorSimulateHardwareAccent") {
+        if UserDefaults.standard.string(forKey: "AppleAccentColor") ?? "No color returned" == "-2" {
+            toReturn = true
+        }
+    } else if UserDefaults.standard.object(forKey: "AppleAccentColor") == nil {
+        toReturn = true
+    }
+    return toReturn
+}
