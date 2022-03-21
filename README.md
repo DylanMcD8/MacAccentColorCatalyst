@@ -6,4 +6,4 @@ It supports all the system colors as well as all of the special colors exclusive
 
 I have also included color sets that match each system color.
 
-<img width="844" height="1024" src="/Resources/Screenshot.png">
+<img width="1024" height="844" src="/Resources/Screenshot.png">
